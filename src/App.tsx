@@ -1,13 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
-import  BasicTable from './components/BasicTable';
 import './App.css';
+import LeaderboardPage from 'pages/LeaderboardPage';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World </h1>
-      <BasicTable />
+      <h1>Manager Games Leaderboard </h1>
+      <LeaderboardPage />
     </div>
   );
 }

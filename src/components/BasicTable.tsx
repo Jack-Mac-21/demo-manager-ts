@@ -29,9 +29,9 @@ export default function BasicTable() {
       <Table sx={{ minWidth: 650 }} aria-label="simple table">
         <TableHead>
           <TableRow>
-            <TableCell>University</TableCell>
-            <TableCell align="right"> Wins</TableCell>
-            <TableCell align="right">Losses</TableCell>
+            <TableCell><b>University</b></TableCell>
+            <TableCell align="right"> <b> Wins </b></TableCell>
+            <TableCell align="right"> <b>Losses </b></TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
