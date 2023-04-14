@@ -14,7 +14,7 @@ import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import SvgIcon from '@mui/material/SvgIcon';
 
-const pages = ['Leaderboard', 'Schedule', 'My Team'];
+const pages = ['Leaderboard', 'Schedule', 'My Team','Input Game'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function ResponsiveAppBar() {

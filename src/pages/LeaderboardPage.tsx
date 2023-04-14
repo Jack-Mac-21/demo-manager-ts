@@ -1,7 +1,7 @@
 import BasicTable from "components/BasicTable"
 import WinningCard from "components/WinningCard"
-import AddGameButton from "components/AddGameButton"
 import AppBar  from "components/AppBar"
+import InputGamePage from "./InputGamePage"
 
 
 export default function LeaderboardPage() {
@@ -9,7 +9,7 @@ export default function LeaderboardPage() {
         <>
         <AppBar />
         <WinningCard />
-        <AddGameButton />
+        <InputGamePage />
         <BasicTable />
         </>
     )
